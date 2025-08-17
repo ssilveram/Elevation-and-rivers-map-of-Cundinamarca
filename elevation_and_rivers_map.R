@@ -2,16 +2,16 @@
 ##                                                                            ##
 ##                    ELEVATION MAP AND RIVERS IN COLOMBIA                    ##
 ##                                                                            ##
-## This R script created by Santiago Silvera, were produced as part of an     ##
-## independent consulting study on in 2024, which aimed to determine the      ##
-## optimal railway route connecting Bogotá and the Magdalena River in         ##
-## Colombia. The elevation data was processed by an algorithm to navigate the ##
-## ~2,200-meter descent between the two locations while adhering to strict    ##
-## constraints for slope, height, and track radius. The map was for           ##
-## illustrative purposes only.                                                ##
+## The associated R script was produced as part of an independent consulting  ##
+## study in 2024, which aimed to determine the optimal railway route          ##
+## connecting Bogotá and the Magdalena River in Colombia. The elevation data  ##
+## was processed by an algorithm to navigate the ~2,200-meter descent between ##
+## the two locations while adhering to strict constraints on slope, height,   ##
+## and track radius. The map produced by this script was for illustrative     ##
+## purposes only.                                                             ##
 ##                                                                            ##
-## In subsequent steps not included in this script, the optimal path finding  ##
-## algorithm used the elevation data to accomplish its purpose.               ##
+## The processed elevation data was then used by a separate path-finding      ##
+## algorithm (not included in this script) to calculate the optimal route.    ##
 ##                                                                            ##
 ## ©2024. Santiago Silvera. Berlin, Germany.                                  ##
 ##                                                                            ##
@@ -297,8 +297,7 @@ Final_Map <- Map_Image_Original |>
   )
 
 # Save the final image map:
-image_write(Final_Map, path = "Rivers_and_Elevation_Map.png", format = "png")
-
+image_write(Final_Map, path = "Elevation_and_Rivers_Map.png", format = "png")
 
 # Delete the full-size map:
 if (file.exists(file_name)) {
@@ -309,16 +308,7 @@ if (file.exists(file_name)) {
 }
 
 # Show the final map:
-Final_Map <- image_read("Rivers_and_Elevation_Map.png")
+Final_Map <- image_read("Elevation_and_Rivers_Map.png")
 print(Final_Map)
 
 # --- End of the Script ---
-
-
-
-
-
-
-
-
-
