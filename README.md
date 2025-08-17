@@ -21,6 +21,6 @@ Have fun!
 
 R Packages: `pacman`, `sf`, `terra`, `elevatr`, `geodata`, `rayshader`, `rayrender`, `magick`, `glue` and `tidyverse`.
 
-Data sources: HydroSHEDS + Elevation: [Amazon Web Services Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) and [Open Topography](https://opentopography.org/) via `elevatr` package.
+Data sources: [HydroSHEDS](https://www.hydrosheds.org/products/hydrorivers) + Elevation: [Amazon Web Services Terrain Tiles](https://registry.opendata.aws/terrain-tiles/) and [Open Topography](https://opentopography.org/) via `elevatr` package.
 
 ©2024. **[Santiago Silvera](https://github.com/ssilveram)**. Berlin, Germany.
