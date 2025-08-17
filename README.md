@@ -4,6 +4,8 @@ The associated R script created by Santiago Silvera, were produced as part of an
 
 In subsequent steps not included in this script, the optimal path finding algorithm used the elevation data to accomplish its purpose.
 
+![Elevation and rivers map of Cundinamarca, Colombia.png](assets/Elevation_and_Rivers_Map.png)
+
 
 ## 🚀 How use this script
 
